@@ -1,0 +1,12 @@
+<form id="tempCalc" onsubmit="calculateTemp(); return false">
+
+        <label for="temp">PLEASE ENTER THE TEMPERATURE YOU WOULD LIKE TO CONVERT.</label>
+        <br><br>
+        <input type="number" name="temp" id="temp">
+        <select name="temp_diff" id="temp_diff">
+            <option value="cel">°CELSIUS</option>
+            <option value="fah">°FAHRENHEIT</option>
+        </select> <br /><br>
+        <input type="submit" name="temp"><br>
+        <span id="resultContainer"></span>
+    </form>
